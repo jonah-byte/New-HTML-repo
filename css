@@ -1,0 +1,71 @@
+body{
+ color: black;
+ background-color: rgb(23, 149, 204);
+ font-family: arial, Times, serif;
+         
+      }
+h1 {
+ font-weight: 100;
+ font-size: 25px;
+ background-color: teal;
+ text-align: center;
+        
+}
+      
+ h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+ }
+#leche {
+  font-weight: 200;
+  color: rgb(25, 25 , 0);
+ }
+#whiteCastle {
+  font-size: 25px;
+  font-weight: 250;
+}
+#bio  {
+  font-size: 30px;
+  font-weight: 250;
+  font-family: Times New Roman;
+  text-align: center;
+ }
+ul{
+  text-align:;
+ }
+ol{
+  text-align: left;
+}
+#box{
+  position: absolute;
+  top: 138px;
+  right: 20px;
+  width: 150px;
+  padding: 20px;
+  border: 30px;
+  margin: 50;
+  display:inline;
+  overflow:auto;
+  height: 100%;
+  
+}
+footer{
+  text-align: center;
+}
+#sports{
+  position: absolute;
+  top: 138px;
+  left: 35px;
+  width: 150px;
+  padding: 20px;
+  border: 30px;
+  margin: 50;
+  display:inline;
+  overflow:auto;
+  height: 100%;
+
+}
+
+
+
