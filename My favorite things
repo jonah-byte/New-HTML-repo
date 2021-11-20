@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>personal title website</title>
-    <style>
-      body{
-         color: gold;
-         background-color: grey;
-         font-family: arial, Times, serif;
-      }
-      h1 {
-        font-weight: 100;
-        font-size: 25px
-        
-      }
-      h2 {
-        font-size: 15px;
-      }
-      #leche {
-        font-size: 30px;
-        font-weight: 200;
-        color: red;
-      }
-    </style>
+    <title>Stuff that I enjoy</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    
   </head>
+
   <body>
-    <h1>My favortie things</h1>
+
+    <header>
+    <h1>My favorite things</h1>
     <hr>
+    </header>
     <br>
+
+    <section>
+    <p id = "bio"><strong> This is some of the stuff like </strong></p>
     <br>
+
     <!--list of sports-->
-    <h2>Sports I Play:</h2>
-    <ul>
-      <li>Tennis</li>
-      <li>soccer</li>
-      <li>track</li>
-    </ul>
+    <div id = "sports">
+      <h2>Sports I Play:</h2>
+      <ul>
+        <li>Tennis</li>
+        <li>soccer</li>
+        <li>track</li>
+      </ul>
+    </div>
+    </section>
+
+
+    <article>
     <!--List of food -->
-    <h2>Food I like</h2>
-    <ol type = "A">
-      <li>Korean Fried Chicken</li>
-      <li><em>Hamburgeses</em></li>
-      <li id="leche"><a  href="https://ww2.kqed.org/app/uploads/sites/38/2016/03/milk-435295-960x640.png"><strong>leche</strong></a></li>
-    </ol>
+    <div id = "box">
+      <h2>Food I like</h2>
+      <ol type = "A" start = "y">
+        <li>Korean Fried Chicken</li>
+        <li><em>Hamburgeses</em></li>
+        <li id="leche"><a  href="https://ww2.kqed.org/app/uploads/sites/38/2016/03/milk-435295-960x640.png" target="_blank"><strong>leche</strong></a></li>
+      </ol>
+    </div>
+    </article>
+    
+     <footer>
     <br>
     <br>
     <img src="https://d2j1wkp1bavyfs.cloudfront.net/wp-content/uploads/2019/07/Harold-Kumar-01.jpg" alt="borgar" width=auto height=250px>
     <br><br>
-    <a href="https://www.whitecastle.com/" target="_blank">where to get borgar</a>
+    <a id="whiteCastle"href="https://www.whitecastle.com/" target="_blank"><b>where to get borgar</b></a>
+    
     <p>
       <b>I'll have <mark>30</mark> sliders please</b>
     </p>
+    </footer>
+    
   </body>
 </html>
